@@ -1,0 +1,210 @@
+/*This file contains color and style changes for the colorful theme type*/
+:root {--accent: 98, 121, 205;}
+:root {--indicator: var(--accent);}
+:root {--selection: var(--accent);}
+
+.dialog,
+.mainDrawer,
+.toast,
+.appfooter {
+    background-color: rgba(8, 8, 8, 0.85);
+}
+/* Background image on Homepage */
+.backdropImage { display: none; }
+
+.backgroundContainer {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("https://media.discordapp.net/attachments/832180255103385650/1044173589190037564/JellyFlix.png");
+  filter: blur(5px);
+  background-size: cover;
+}
+
+/*Colors for title_2*/
+.layout-desktop .detailRibbon {
+    background: rgba(0, 0, 0, 0.2);
+}
+.itemBackdrop::after {
+  background: rgba(0,0,0,.26) !important;
+}
+
+/*Accenting*/
+
+.preload {
+    background-color: black;
+}
+.backgroundContainer {
+    background-color: rgba(var(--accent),0.17) !important;
+}
+.formDialogHeader,
+.formDialogFooter {
+    background-color: rgba(var(--accent),0.15) !important;
+}
+/*Fix footers/headers displaying on small pop-ups*/
+.formDialogFooter-clear,
+.formDialogHeader-clear,
+.innerCardFooterClear {
+    background-color: transparent !important;
+}
+
+.button-flat:hover {
+	background: rgba(var(--accent),0.25);
+}
+.paper-icon-button-light:hover {
+  background-color: rgba(var(--accent),0.25) !important;
+}
+
+.navMenuOption-selected {
+  color: white;
+}
+
+.subtitleappearance-preview {
+  background: linear-gradient(140deg,rgba(var(--accent)),#111) !important;
+}
+.navMenuOption-selected, .selectionCommandsPanel {
+    background: rgba(var(--accent), 0.8) !important;
+}
+.raised,
+.fab,
+a[data-role="button"] {
+  background: rgba(var(--accent), 0.8) !important;
+	transition: all 0.2s !important;
+}
+
+/*Various box-shadows, might be related to glowstyle*/
+.cardBox:not(.visualCardBox) .cardPadder, .cardContent-shadow {
+    box-shadow: none !important;
+}
+body, h1, h2, h3, h4, .textActionButton, .emby-button-foreground  {
+  text-shadow: 0px 0px 4px rgba(0,0,0,.6) !important;
+}
+.blurhashed {
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.6) !important;
+}
+
+/*Dash and general UI styling*/
+.paperList, .visualCardBox {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navMenuOption-selected {
+    color: white;
+}
+progress {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+/*Colors for loading spinner, placeholders, scroll bars*/
+.mdl-spinner__layer-1 {border-color: rgba(var(--accent), 1);}
+.mdl-spinner__layer-2 {border-color: rgba(var(--accent), .8);}
+.mdl-spinner__layer-3 {border-color: rgba(var(--accent), .6);}
+.mdl-spinner__layer-4 {border-color: rgba(var(--accent), .5);}
+
+
+.defaultCardBackground1 {
+	background-color: rgba(var(--accent), .5);
+}
+.defaultCardBackground2 {
+	background-color: rgba(var(--accent), .4);
+}
+.defaultCardBackground3 {
+	background-color: rgba(var(--accent), .8);
+}
+.defaultCardBackground4 {
+	background-color: rgba(var(--accent), .7);
+}
+.defaultCardBackground5 {
+	background-color: rgba(var(--accent), .6);
+}
+
+/*Syncplay*/
+@-webkit-keyframes pulse {
+ 0% {
+  -webkit-transform:scale(.95);
+  transform:scale(.95);
+  color:rgba(var(--accent),.7);
+  background:rgba(var(--accent),.3);
+  box-shadow:0 0 0 0 rgba(var(--accent),.3)
+ }
+ 70% {
+  -webkit-transform:scale(1);
+  transform:scale(1);
+  color:rgba(var(--accent),0);
+  background:rgba(var(--accent),0);
+  box-shadow:0 0 0 60px rgba(var(--accent),0)
+ }
+ to {
+  -webkit-transform:scale(.95);
+  transform:scale(.95);
+  color:rgba(var(--accent),0);
+  background:rgba(var(--accent),0);
+  box-shadow:0 0 0 0 rgba(var(--accent),0)
+ }
+}
+@keyframes pulse {
+ 0% {
+  -webkit-transform:scale(.95);
+  transform:scale(.95);
+  color:rgba(var(--accent),.7);
+  background:rgba(var(--accent),.3);
+  box-shadow:0 0 0 0 rgba(var(--accent),.3)
+ }
+ 70% {
+  -webkit-transform:scale(1);
+  transform:scale(1);
+  color:rgba(var(--accent),0);
+  background:rgba(var(--accent),0);
+  box-shadow:0 0 0 60px rgba(var(--accent),0)
+ }
+ to {
+  -webkit-transform:scale(.95);
+  transform:scale(.95);
+  color:rgba(var(--accent),0);
+  background:rgba(var(--accent),0);
+  box-shadow:0 0 0 0 rgba(var(--accent),0)
+ }
+}
+@-webkit-keyframes infinite-pulse {
+ 0% {
+  -webkit-transform:scale(.95);
+  transform:scale(.95);
+  color:rgba(var(--accent),.7);
+  background:rgba(var(--accent),.3);
+  box-shadow:0 0 0 0 rgba(var(--accent),.3)
+ }
+ 70% {
+  -webkit-transform:scale(1);
+  transform:scale(1);
+  color:rgba(var(--accent),.6);
+  background:rgba(var(--accent),0);
+  box-shadow:0 0 0 60px rgba(var(--accent),0)
+ }
+ to {
+  -webkit-transform:scale(.95);
+  transform:scale(.95);
+  color:rgba(var(--accent),.7);
+  background:rgba(var(--accent),.3);
+  box-shadow:0 0 0 0 rgba(var(--accent),0)
+ }
+}
+@keyframes infinite-pulse {
+ 0% {
+  -webkit-transform:scale(.95);
+  transform:scale(.95);
+  color:rgba(var(--accent),.7);
+  background:rgba(var(--accent),.3);
+  box-shadow:0 0 0 0 rgba(var(--accent),.3)
+ }
+ 70% {
+  -webkit-transform:scale(1);
+  transform:scale(1);
+  color:rgba(var(--accent),.6);
+  background:rgba(var(--accent),0);
+  box-shadow:0 0 0 60px rgba(var(--accent),0)
+ }
+ to {
+  -webkit-transform:scale(.95);
+  transform:scale(.95);
+  color:rgba(var(--accent),.7);
+  background:rgba(var(--accent),.3);
+  box-shadow:0 0 0 0 rgba(var(--accent),0)
+ }
+}
