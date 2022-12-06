@@ -15,7 +15,7 @@
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
   background-image: url("https://media.discordapp.net/attachments/832180255103385650/1044173589190037564/JellyFlix.png");
-  filter: blur(50%);
+  filter: blur(80%);
   background-size: cover;
 }
 
