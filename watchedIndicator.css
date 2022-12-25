@@ -1,0 +1,19 @@
+/*Card indicators style normal*/
+.innerCardFooter {
+    margin: .5em;
+}
+
+.countIndicator {
+  background: rgba(var(--indicator),0.8);
+  box-shadow: none;
+}
+.playedIndicator, .innerCardFooter {
+  background: rgba(0,0,0,0.4);
+  box-shadow: none;
+}
+
+.mediaSourceIndicator {
+  background: rgba(0,0,0,0.4);
+  box-shadow: none;
+  border-radius: var(--rounding);
+}
