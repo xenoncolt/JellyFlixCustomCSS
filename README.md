@@ -8,7 +8,78 @@ To use the JellySkin theme copy the line below into "Dashboard -> General -> Cus
 
 # Login Screen 
 - Login background with radial gradient overlay to make it look like netflix login.
-
 ```
 @import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@latest/loginPage.css");
+```
+
+# Theme
+- A blue accent color theme 
+```
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@latest/blueTheme.css")
+```
+
+# Effect
+### Back Drop hack
+- A hacky way to trun the cover art into a backdrop on mobile.
+```
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@latest/backdropHackStyle.css")
+```
+
+### Glassy
+- Make some UI elements glassy see-through.
+```
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/glassy.css")
+```
+
+### Pan Animation
+- Pan animation animates the backdrop with a slow pan.
+```
+@import url("")
+```
+
+### Hover Glow
+- Make your items glow
+```
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/hoverglow.css")
+```
+
+# Smaller cast list
+- A smaller, square aspect ratio style cast list.
+```
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@latest/castRow.css")
+```
+
+# Field Border
+- Input field styles, with borders that highlight when selected.
+```
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/fieldBorder.css")
+```
+
+# Episodes List
+### Grid Episodes
+- It will help you to scroll more easily.
+```
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/gridEpisodes.css")
+
+### Compact List
+- List base view episode list
+```
+```
+
+# Overly Progress
+- Overly progress indicator for libary items
+```
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/overlyProgress.css")
+```
+
+# Transparent Header
+- For better background quility, it will help you to lock more beautiful
+```
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/transparentHeader.css")
+```
+
+# Watched Indicator
+- A more styles overly watched indicator
+```
+@import url("")
 ```
