@@ -34,7 +34,7 @@ To use the JellySkin theme copy the line below into "Dashboard -> General -> Cus
 ### Pan Animation
 - Pan animation animates the backdrop with a slow pan.
 ```
-@import url("")
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/panAnimation.css")
 ```
 
 ### Hover Glow
@@ -60,10 +60,12 @@ To use the JellySkin theme copy the line below into "Dashboard -> General -> Cus
 - It will help you to scroll more easily.
 ```
 @import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/gridEpisodes.css")
+```
 
 ### Compact List
 - List base view episode list
 ```
+coming soon
 ```
 
 # Overly Progress
@@ -81,5 +83,5 @@ To use the JellySkin theme copy the line below into "Dashboard -> General -> Cus
 # Watched Indicator
 - A more styles overly watched indicator
 ```
-@import url("")
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/watchedIndicator.css")
 ```
