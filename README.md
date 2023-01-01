@@ -28,19 +28,19 @@ To use the JellySkin theme copy the line below into "Dashboard -> General -> Cus
 ### Glassy
 - Make some UI elements glassy see-through.
 ```
-@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/glassy.css")
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@latest/glassy.css")
 ```
 
 ### Pan Animation
 - Pan animation animates the backdrop with a slow pan.
 ```
-@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/panAnimation.css")
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@latest/panAnimation.css")
 ```
 
 ### Hover Glow
 - Make your items glow
 ```
-@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/hoverglow.css")
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@latest/hoverglow.css")
 ```
 
 # Smaller cast list
@@ -52,14 +52,14 @@ To use the JellySkin theme copy the line below into "Dashboard -> General -> Cus
 # Field Border
 - Input field styles, with borders that highlight when selected.
 ```
-@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/fieldBorder.css")
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@latest/fieldBorder.css")
 ```
 
 # Episodes List
 ### Grid Episodes
 - It will help you to scroll more easily.
 ```
-@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/gridEpisodes.css")
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@latest/gridEpisodes.css")
 ```
 
 ### Compact List
@@ -71,17 +71,17 @@ coming soon
 # Overly Progress
 - Overly progress indicator for libary items
 ```
-@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/overlyProgress.css")
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@latest/overlyProgress.css")
 ```
 
 # Transparent Header
 - For better background quility, it will help you to lock more beautiful
 ```
-@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/transparentHeader.css")
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@latest/transparentHeader.css")
 ```
 
 # Watched Indicator
 - A more styles overly watched indicator
 ```
-@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@main/watchedIndicator.css")
+@import url("https://cdn.jsdelivr.net/gh/xenoncolt/JellyFlixCustomCSS@latest/watchedIndicator.css")
 ```
