@@ -239,53 +239,6 @@ div#itemBackdrop {
   padding: 10px !important;
 }
 
-.layout-mobile #itemDetailPage .btnPlay::after {
-  content: "Play";
-}
-
-.layout-mobile #itemDetailPage .btnResume::after {
-  content: "Resume";
-}
-
-.layout-mobile #itemDetailPage .btnDownload::after {
-  content: "Download";
-}
-
-.layout-mobile #itemDetailPage .btnPlayTrailer::after {
-  content: "Trailer";
-}
-
-.layout-mobile #itemDetailPage .btnInstantMix::after {
-  content: "Mix";
-}
-
-.layout-mobile #itemDetailPage .btnShuffle::after {
-  content: "Shuffle";
-}
-
-.layout-mobile #itemDetailPage .btnCancelSeriesTimer::after {
-  content: "Cancle Series";
-}
-
-.layout-mobile #itemDetailPage .btnCancelTimer::after {
-  content: "Stop Recording";
-}
-
-.layout-mobile #itemDetailPage .btnPlaystate::after {
-  content: "Watched";
-}
-
-.layout-mobile #itemDetailPage .btnUserRating::after {
-  content: "Favourite";
-}
-
-.layout-mobile #itemDetailPage .btnSplitVersions::after {
-  content: "Split";
-}
-
-.layout-mobile #itemDetailPage .btnMoreCommands::after {
-  content: "More";
-}
 
 .layout-mobile #itemDetailPage .detailButton {
   width: calc(50% - 5px);
