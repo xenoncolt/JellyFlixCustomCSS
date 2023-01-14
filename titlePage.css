@@ -165,3 +165,45 @@ div#itemBackdrop {
     height: 10vh;
     width: 10vh;
   }
+
+/* ultra*/
+
+
+  .itemBackdrop {
+    height: 31vh !important;
+    display: inherit;
+  }
+  .detailLogo {
+    display: none;
+  }
+  .layout-desktop .detailRibbon {
+    margin-top: 0;
+    padding-top: .5em;
+    padding-bottom: .5em;
+  }
+  
+  .layout-desktop .detailImageContainer .card {
+    top: 18vh;
+  }
+  
+
+  
+  .layout-mobile .detailLogo {
+      display: none !important;
+  }
+  
+  #itemDetailPage .itemName.infoText.parentNameLast {
+      display: none;
+  }
+  
+  .hide+.detailPageWrapperContainer .itemName {
+      display: block !important;
+  }
+  
+  .itemName {
+      margin: .5em 0 !important;
+  }
+  
+  .layout-mobile #itemDetailPage .itemName.infoText.parentNameLast {
+      display: block;
+  }
