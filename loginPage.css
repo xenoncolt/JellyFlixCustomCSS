@@ -121,6 +121,8 @@
     height: 90vh !important;
     background: transparent;
   }
+
+  /* Login page BG pic for mobile */
   
   .layout-mobile #loginPage {
     background: linear-gradient(to left, #000000bf, #000000bf),
