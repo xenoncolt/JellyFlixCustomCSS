@@ -360,3 +360,20 @@ div#itemBackdrop {
 div[data-type="Episode"] .cardText {
   opacity: 1;
 }
+
+/*video Page*/
+
+div#videoOsdPage {
+    overflow: hidden !important;
+    margin-top: 0 !important;
+  }
+  
+  .mdl-slider-background-lower {
+    background-color: var(--accent) !important;
+  }
+  
+  .sliderBubble {
+    background: var(--deftraback) !important;
+    border-radius: 10px;
+  }
+  
