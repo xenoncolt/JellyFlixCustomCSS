@@ -1,11 +1,7 @@
 /*Alternate itempage*/
 div#itemBackdrop {
-    height: 100% !important;
     z-index: 0;
-    position: absolute;
     background-position: top right;
-    right: 0;
-    width: 70vw;
     background-size: cover;
     background-attachment: scroll;
     mask-image: linear-gradient(to right, transparent, black),
@@ -16,7 +12,6 @@ div#itemBackdrop {
     -webkit-mask-composite: source-in;
     mask-composite: intersect;
   }
-
 
 
 .itemBackdrop {
