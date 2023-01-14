@@ -163,10 +163,7 @@ div#itemBackdrop {
     width: 10vh;
   }
 
-  #castContent
-  .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light {
-  margin: auto;
-}
+
 
 @media (max-width: 62.5em) {
   .section0 .cardText.cardTextCentered.cardText-first {
@@ -361,21 +358,6 @@ div[data-type="Episode"] .cardText {
   opacity: 1;
 }
 
-/*video Page*/
-
-div#videoOsdPage {
-    overflow: hidden !important;
-    margin-top: 0 !important;
-  }
-  
-  .mdl-slider-background-lower {
-    background-color: var(--accent) !important;
-  }
-  
-  .sliderBubble {
-    background: var(--deftraback) !important;
-    border-radius: 10px;
-  }
 
   /*fixing Poster Margin*/
 
@@ -932,13 +914,9 @@ div#videoOsdPage {
     transition: border-color 0.2s, background 0.2s;
   }
   
-  div#divRunningTasks:hover {
-    transform: scale(1.1);
-  }
+
   
-  div#divRunningTasks {
-    transition: transform 0.2s, background 0.2s;
-  }
+
   
   .detailPageContent {
     text-shadow: none;
