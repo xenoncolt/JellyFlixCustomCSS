@@ -1,8 +1,6 @@
+/*Alternate itempage*/
 
-/* ultra*/
-
-
-  .itemBackdrop {
+.itemBackdrop {
     height: 31vh !important;
     display: inherit;
   }
