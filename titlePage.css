@@ -15,53 +15,150 @@ div#itemBackdrop {
     -webkit-mask-composite: source-in;
     mask-composite: intersect;
   }
-
-
-.itemBackdrop {
-    height: 31vh !important;
-    display: inherit;
-  }
-  .detailLogo {
+ 
+  div#itemBackdrop::after {
     display: none;
   }
-  .layout-desktop .detailRibbon {
-    margin-top: 0;
-    padding-top: .5em;
-    padding-bottom: .5em;
+  
+  .detailPageSecondaryContainer {
+    margin: 0em !important;
+    background: transparent;
   }
   
-  .layout-desktop .detailImageContainer .card {
-    top: 18vh;
+  
+  .detailPagePrimaryContent {
+    position: relative;
+    width: 60vw;
+    background: transparent;
+    min-height: 70vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    text-shadow: 1px 1px 5px rgb(20, 20, 20);
+    padding: 0 !important;
+    font-size: 1.3em;
   }
   
-  #itemDetailPage .detailLogo {
-      position: static;
-      margin-left: 32.5%;
-      display: block;
-      -webkit-filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75));
-      /*! filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75)); */
-      flex-shrink: 0;
-      background-position: 0 50%;
-      margin-top: -18vh;
-      margin-bottom: 2vh;
+  .layout-mobile .itemMiscInfo,
+  .layout-mobile .itemName,
+  .layout-mobile .mainDetailButtons,
+  .layout-mobile .parentName {
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
   }
   
-  .layout-mobile .detailLogo {
-      display: none !important;
+  .layout-mobile .nameContainer {
+    font-size: 6.5vw;
   }
   
-  #itemDetailPage .itemName.infoText.parentNameLast {
-      display: none;
+  #itemDetailPage .detailVerticalSection:last-child {
+    margin-bottom: 10vh;
   }
   
-  .hide+.detailPageWrapperContainer .itemName {
-      display: block !important;
+  #itemDetailPage .itemExternalLinks {
+    margin-top: 0 !important;
   }
   
-  .itemName {
-      margin: .5em 0 !important;
+  .layout-mobile #itemDetailPage .detailVerticalSection {
+    background: transparent;
+    width: 100%;
+    padding: 0;
   }
   
-  .layout-mobile #itemDetailPage .itemName.infoText.parentNameLast {
-      display: block;
+  .itemName.parentNameLast {
+    margin: 0;
+    font-size: calc(135% * 2);
+  }
+  
+  .parentName a {
+    text-align: left;
+  }
+  
+  .layout .button-flat:focus,
+  .layout-mobile .button-flat:hover {
+    color: #cdcdcd !important;
+  }
+  
+  .button-flat:focus,
+  .button-flat:hover {
+    color: var(--accent);
+  }
+  
+  @media (orientation: landscape) {
+    .layout-mobile
+      .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
+      flex-flow: row;
+      width: 100% !important;
+    }
+    .layout-mobile .mainDetailButtons {
+      margin: 0 5vh;
+      width: 50vw !important;
+      flex-shrink: 1;
+    }
+    .layout-mobile .infoWrapper.infoText {
+      margin: 0 5vh !important;
+      font-size: 5vh !important;
+      max-width: 50%;
+    }
+    .layout-mobile .nameContainer {
+      font-size: 6.5vh;
+    }
+    .layout-mobile .primaryImageWrapper > img {
+      -webkit-mask-image: linear-gradient(
+        0deg,
+        transparent 0%,
+        black 90%
+      ) !important;
+      mask-image: linear-gradient(0deg, transparent 0%, black 90%) !important;
+    }
+  }
+  
+  .layout-mobile .itemName.originalTitle {
+    display: none !important;
+  }
+  
+  .layout-tv .backdropContainer {
+    display: block !important;
+    z-index: -1;
+  }
+  
+  .layout-tv .backgroundContainer.withBackdrop {
+    background-color: transparent !important;
+  }
+  
+  .layout-tv div#itemDetailPage {
+    background: transparent;
+  }
+  
+  .layout-tv div#itemBackdrop {
+    width: 100vw;
+    height: 100vh !important;
+    background: linear-gradient(
+        to left,
+        transparent,
+        rgb(20 20 20 / 0.5),
+        rgb(20, 20, 20)
+      ),
+      linear-gradient(
+        to bottom,
+        transparent,
+        rgb(20 20 20 / 0.5),
+        rgb(20, 20, 20)
+      );
+    z-index: -1;
+    mask-image: none !important;
+    -webkit-mask-image: none !important;
+    display: block;
+    position: fixed;
+    top: 0;
+  }
+  
+  .layout-tv .mainDetailButtons {
+    height: 10vh;
+  }
+  
+  .layout-tv .mainDetailButtons > * {
+    height: 10vh;
+    width: 10vh;
   }
