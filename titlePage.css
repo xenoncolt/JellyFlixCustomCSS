@@ -1048,4 +1048,14 @@ div[data-type="Episode"] .cardText {
     margin: 0;
   }
   
-  
+  #itemDetailPage .detailLogo {
+    position: static;
+    margin-left: 32.5%;
+    display: block;
+    -webkit-filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75));
+    /*! filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75)); */
+    flex-shrink: 0;
+    background-position: 0 50%;
+    margin-top: -18vh;
+    margin-bottom: 2vh;
+}
