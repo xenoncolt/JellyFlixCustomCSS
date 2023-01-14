@@ -376,4 +376,745 @@ div#videoOsdPage {
     background: var(--deftraback) !important;
     border-radius: 10px;
   }
+
+  /*fixing Poster Margin*/
+
+.itemsContainer > .card > .cardBox {
+    margin: 0 !important;
+  }
+  
+  .sectionTitleContainer.flex {
+    box-shadow: 0 0 black !important;
+  }
+  
+  .emby-input,
+  .emby-textarea,
+  .emby-select {
+    box-shadow: none !important;
+    background: #101010 !important;
+    text-shadow: none !important;
+    border: 2.5px solid #101010 !important;
+    padding: calc(1em - 2.5px) !important;
+    color: white !important;
+    transition: 0.2s;
+  }
+  
+  .inputLabel,
+  .selectLabel,
+  .textareaLabel {
+    color: #eee;
+    font-size: 1.2em;
+    align-items: center;
+  }
+  
+  .selectContainer {
+    align-items: center;
+  }
+  
+  label.selectLabel {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  
+  .inputLabel.inputLabelFocused,
+  .selectLabel.selectLabelFocused,
+  .textareaLabel.textareaLabelFocused {
+    color: var(--accent) !important;
+  }
+  
+  .listItemIcon.notifications {
+    font-size: 2em;
+  }
+  
+  .actionSheetMenuItem:hover {
+    background: var(--deftraback) !important;
+  }
+  
+  .emby-scrollbuttons {
+    z-index: 0;
+  }
+  
+  .sectionTitleContainer {
+    z-index: -1;
+  }
+  
+  .layout-mobile .emby-scroller {
+    padding: 0 !important;
+    overflow: auto !important;
+  }
+  
+  .layout-mobile .innerCardFooter {
+    width: 70%;
+    margin: 0 3%;
+  }
+  
+  .layout-mobile .cardOverlayButton {
+    color: white !important;
+    border: 2px solid var(--accent);
+    margin: 0 2% 2% 0;
+  }
+  
+  .layout-mobile .cardText {
+    opacity: 1;
+  }
+  
+  .cardBox {
+    background: transparent !important;
+    box-shadow: none;
+    overflow: hidden;
+    transition: all 0.15s;
+  }
+  
+  .card {
+    border-radius: var(--rounding);
+    transition: 0.2s;
+    z-index: 100;
+  }
+  
+  @media (min-width: 25em) {
+    .backdropCard {
+      width: calc(50% - 10px);
+    }
+  }
+  
+  @media (min-width: 48.125em) {
+    .backdropCard {
+      width: calc(33.333333333333336% - 10px);
+    }
+  }
+  
+  @media (min-width: 75em) {
+    .backdropCard {
+      width: calc(25% - 10px);
+    }
+  }
+  
+  @media (min-width: 100em) {
+    .backdropCard {
+      width: calc(20% - 10px);
+    }
+  }
+  
+  @media (min-width: 156.25em) {
+    .backdropCard {
+      width: calc(16.666666666666668% - 10px);
+    }
+  }
+  
+  .portraitCard {
+    width: calc(33.333333333333336% - 10px);
+  }
+  
+  @media (min-width: 31.25em) {
+    .portraitCard,
+    .smallBackdropCard,
+    .squareCard {
+      width: calc(33.333333333333336% - 10px);
+    }
+  }
+  
+  @media (min-width: 43.75em) {
+    .portraitCard,
+    .squareCard {
+      width: calc(25% - 10px);
+    }
+  }
+  
+  @media (min-width: 50em) {
+    .portraitCard,
+    .squareCard {
+      width: calc(20% - 10px);
+    }
+  }
+  
+  @media (min-width: 75em) {
+    .portraitCard,
+    .squareCard {
+      width: calc(16.666666666666668% - 10px);
+    }
+  }
+  
+  @media (min-width: 87.5em) {
+    .portraitCard,
+    .smallBackdropCard,
+    .squareCard {
+      width: calc(14.285714285714286% - 10px);
+    }
+  }
+  
+  @media (min-width: 100em) {
+    .portraitCard,
+    .squareCard {
+      width: calc(12.5% - 10px);
+    }
+  }
+  
+  @media (min-width: 120em) {
+    .portraitCard,
+    .squareCard {
+      width: calc(11.11111111111111% - 10px);
+    }
+  }
+  
+  @media (min-width: 131.25em) {
+    .portraitCard,
+    .squareCard {
+      width: calc(10% - 10px);
+    }
+  }
+  
+  .card.show-animation:focus > .cardBox {
+    transform: scale(1) !important;
+  }
+  
+  .layout-mobile .card:hover {
+    transform: none !important;
+    box-shadow: none;
+    background: none !important;
+  }
+  
+  .layout-mobile .card:hover .cardScalable {
+    border-radius: var(--rounding) !important;
+  }
+  
+  .card:first-child {
+    transform-origin: left !important;
+  }
+  
+  .card:last-child {
+    transform-origin: right;
+  }
+  
+  .verticalSection:focus-within,
+  .verticalSection:hover {
+    z-index: 50;
+  }
+  
+  .card .cardScalable {
+    border-radius: var(--rounding);
+    overflow: hidden;
+  }
+  
+  .card:hover .cardScalable,
+  .card:focus .cardScalable {
+    border-radius: 0 !important;
+  }
+  
+  .paper-icon-button-light.cardOverlayButton {
+    background: rgb(20, 20, 20);
+    border-radius: 100% !important;
+  }
+  
+  .cardOverlayButton[data-action="resume"] {
+    border: 2px solid var(--accent);
+  }
+  
+  .cardText {
+    opacity: 0;
+    transition: 0.2s;
+  }
+  
+  .card:hover .cardText,
+  .card:focus .cardText {
+    opacity: 1;
+  }
+  
+  .homeLibraryButton:hover,
+  .homeLibraryButton:focus,
+  .card:hover,
+  .card:focus {
+    transform: scale(1.2) !important;
+    -webkit-filter: none !important;
+    filter: none !important;
+    box-shadow: 0 0 20px black;
+  }
+  
+  .layout-tv .homeLibraryButton:focus,
+  .layout-tv .card:focus {
+    transform: none !important;
+  }
+  
+  .layout-tv .card {
+    border-radius: 10px !important;
+    margin: 0px !important;
+    background: transparent !important;
+  }
+  
+  .layout-tv .card:focus {
+    background: transparent !important;
+  }
+  
+  .layout-tv .card[data-type="Actor"] {
+    padding: 10px;
+    position: relative;
+    height: 16em;
+  }
+  
+  .layout-tv .card[data-type="Actor"] .cardPadder {
+    display: none !important;
+  }
+  
+  .layout-tv .emby-scroller {
+    overflow: hidden !important;
+  }
+  
+  .layout-tv .card::before,
+  .layout-tv .emby-tab-button::before,
+  .layout-tv .paper-icon-button-light::after,
+  .layout-tv .listItem::after,
+  .layout-tv .raised::after,
+  .layout-tv #itemDetailPage .emby-button::after {
+    box-sizing: border-box;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 3px solid white;
+    transform: translateY(100%);
+    visibility: hidden;
+    z-index: 1000;
+    will-change: transform;
+    transition: all 0.275s;
+    border-radius: 10px;
+  }
+  
+  .layout-tv .raised::after {
+    transition: transform 0.275s, visiblity 0s 0.275s;
+  }
+  
+  .layout-tv .cardBox {
+    height: 100%;
+    padding: 8px !important;
+  }
+  
+  .layout-tv .card:focus::before,
+  .layout-tv .emby-tab-button:focus::before,
+  .layout-tv .paper-icon-button-light:focus::after,
+  .layout-tv .listItem:focus::after,
+  .layout-tv a.show-focus[is="emby-linkbutton"]:focus > .listItem::after,
+  .layout-tv .raised:focus::after,
+  .layout-tv #itemDetailPage .emby-button:focus::after {
+    transform: translateX(0) !important;
+    visibility: visible;
+  }
+  
+  .layout-tv .card:focus ~ .card::before,
+  .layout-tv .emby-tab-button:focus ~ .emby-tab-button::before,
+  .layout-tv .paper-icon-button-light:focus ~ .paper-icon-button-light::after,
+  .layout-tv .raised:focus ~ .raised::after,
+  .layout-tv #itemDetailPage .emby-button:focus ~ .emby-button::after {
+    transform: translateX(-100%) !important;
+  }
+  
+  .layout-tv .verticalSection:focus-within ~ .verticalSection .card::before,
+  .layout-tv .verticalSection:focus-within ~ .section5 .card::before,
+  .layout-tv .listItem:focus ~ .listItem::after,
+  .layout-tv
+    a.show-focus[is="emby-linkbutton"]:focus
+    ~ a.show-focus[is="emby-linkbutton"]
+    > .listItem::after,
+  .layout-tv .verticalSection:focus-within ~ .verticalSection .raised::after {
+    transform: translateY(-100%);
+  }
+  
+  .layout-tv .verticalSection:focus-within .card::before,
+  .layout-tv *:focus-within > .emby-tab-button::before,
+  .layout-tv *:focus-within > .paper-icon-button-light::after,
+  .layout-tv *:focus-within > .raised::after,
+  .layout-tv #itemDetailPage *:focus-within > .emby-button::after {
+    transform: translateX(100%);
+  }
+  
+  .layout-tv .emby-tab-button:focus,
+  .layout-tv .paper-icon-button-light:focus,
+  .layout-tv .emby-button:focus {
+    transform: none !important;
+    background: none !important;
+  }
+  
+  .layout-tv a.show-focus[is="emby-linkbutton"]:focus {
+    transform: none !important;
+  }
+  
+  .layout-tv .raised:focus {
+    background: var(--accent) !important;
+    transform: none !important;
+  }
+  
+  .layout-tv div[data-role="page"]:not(#itemDetailPage)::after {
+    background: rgb(20, 20, 20);
+    overflow: visible;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .homeLibraryButton,
+  .card:hover,
+  .card:focus {
+    background-color: #101010 !important;
+  }
+  
+  .layout-tv .vertical-wrap .card::before {
+    transform: none !important;
+    visibility: visible;
+    opacity: 0;
+  }
+  
+  .layout-tv .vertical-wrap .card:focus::before {
+    transform: none !important;
+    opacity: 1;
+  }
+  
+  .layout-tv .vertical-wrap .card:focus ~ .card::before {
+    transform: none !important;
+  }
+  
+  .layout-tv .card[data-type="Actor"] .cardText {
+    position: absolute;
+    background: transparent !important;
+    opacity: 1;
+    width: calc(100% - 10px);
+    padding: 0 5px !important;
+  }
+  
+  .layout-tv .card[data-type="Actor"] .cardText-first {
+    bottom: 31.5px;
+    height: 22px;
+  }
+  
+  .layout-tv .card[data-type="Actor"] .cardText-secondary {
+    bottom: 8px;
+    border-radius: 0px 0px 10px 10px;
+    height: 22px;
+  }
+  
+  .layout-tv .card[data-type="Actor"] .cardScalable {
+    overflow: hidden;
+    border-radius: var(--rounding);
+    height: inherit;
+    padding-top: 0 !important;
+  }
+  
+  .layout-tv .card[data-type="Actor"] .cardBox {
+    padding: 0 !important;
+  }
+  
+  .itemsContainer.padded-left.padded-right.padded-right-withalphapicker.vertical-wrap {
+    padding: 0 !important;
+    margin: 0 3.3% !important;
+    width: 89vw !important;
+  }
+  
+  .vertical-wrap {
+    width: 100% !important;
+  }
+  
+  .emby-scroller {
+    overflow: visible !important;
+  }
+  
+  .card,
+  .homeLibraryButton {
+    margin: 5px;
+  }
+  
+  .homeLibraryButton {
+    z-index: 100;
+  }
+  
+  .itemProgressBar {
+    background: #141414;
+    height: 6px;
+  }
+  
+  .itemProgressBarForeground {
+    background: var(--accent);
+  }
+  
+  .innerCardFooter {
+    width: calc(100% - 12px);
+    margin: 0 auto;
+    position: absolute;
+    bottom: 6px;
+  }
+  
+  .itemsContainer {
+    margin: 0 !important;
+  }
+  
+  .homeLibraryButton:not(:hover),
+  .card:not(:hover) {
+    z-index: 5;
+  }
+  
+  .overflowSquareCard .cardImageContainer::before {
+    content: "";
+    background: inherit;
+    width: 130%;
+    height: 130%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-size: cover;
+    -webkit-filter: brightness(40%) blur(10px);
+    filter: brightness(40%) blur(10px);
+    z-index: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  .overflowSquareCard .cardImageContainer::after {
+    content: "";
+    background: inherit;
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    transition: all 0.15s;
+  }
+  
+  .paper-icon-button-light:hover:not(:disabled) {
+    color: var(--accent);
+    background: rgb(20, 20, 20);
+  }
+  
+  .button-flat {
+    border-radius: var(--rounding) !important;
+    text-shadow: 0 0 10px rgb(20, 20, 20);
+  }
+  
+  #indexPage .homeLibraryButton {
+    background: #101010 !important;
+    transition: 0.2s;
+  }
+  
+  .raised {
+    background: var(--accent) !important;
+    border-radius: var(--rounding) !important;
+  }
+  
+  .mediaInfoItem {
+    position: relative;
+    margin-right: 16px;
+    font-weight: 100;
+  }
+  
+  .mediaInfoItem:not(:last-child):after {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #7c7c7cee;
+    position: absolute;
+    right: -9px;
+    border-radius: 10px;
+  }
+  
+  .navMenuOption-selected {
+    background: var(--accent) !important;
+  }
+  
+  .listItem.listItem-border:hover {
+    border-color: rgba(0, 0, 0, 0) !important;
+    background: #3f3f3f;
+  }
+  
+  .listItem.listItem-border {
+    transition: border-color 0.2s, background 0.2s;
+  }
+  
+  div#divRunningTasks:hover {
+    transform: scale(1.1);
+  }
+  
+  div#divRunningTasks {
+    transition: transform 0.2s, background 0.2s;
+  }
+  
+  .detailPageContent {
+    text-shadow: none;
+    background: rgb(20, 20, 20);
+    background: transparent;
+    padding-left: 0;
+    padding-right: 0 !important;
+  }
+  
+  .detailLogo {
+    display: none;
+  }
+  
+  .layout-mobile .detailPageContent {
+    padding: 0 !important;
+    background: rgb(20, 20, 20);
+  }
+  
+  .layout-mobile #itemDetailPage .sectionTitle {
+    padding-left: 5%;
+  }
+  
+  .layout-mobile .detailPagePrimaryContent {
+    padding: 0 5% !important;
+    width: calc(100vw - 10%) !important;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+    min-height: -webkit-fit-content !important;
+    min-height: -moz-fit-content !important;
+    min-height: fit-content !important;
+  }
+  
+  .layout-tv #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer,
+  .layout-desktop #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer {
+    position: relative;
+    top: 0;
+    width: -webkit-fit-content !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    background: transparent;
+    font-size: 20px;
+    max-width: 95%;
+    margin-top: 10vh;
+    padding: 0 !important;
+    height: 20vh;
+    font-size: 135%;
+  }
+  
+  .layout-tv #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer {
+    width: 95vw !important;
+    margin-top: 10vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  
+  .detailImageContainer .card {
+    display: none;
+  }
+  
+  .cardOverlayButton-br {
+    margin-right: 2%;
+  }
+  
+  .chapterCard .cardText {
+    opacity: 1;
+  }
+  
+  .card.chapterCard {
+    transform: none !important;
+  }
+  
+  .card[data-type="Actor"] {
+    transform: none !important;
+  }
+  
+  .card[data-type="Actor"] .cardBox {
+    background: none;
+    position: relative;
+  }
+  
+  .card[data-type="Actor"] .cardScalable {
+    height: 0;
+    overflow: hidden;
+    padding-top: 100%;
+    border-radius: var(--rounding);
+  }
+  
+  .card[data-type="Actor"] .cardText {
+    position: absolute;
+    background: transparent !important;
+    opacity: 1;
+  }
+  
+  .card[data-type="Actor"] .cardImageContainer::after {
+    content: "";
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.75), transparent 70%);
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    padding-top: 100%;
+  }
+  
+  .card[data-type="Actor"] .cardText-secondary {
+    bottom: 0%;
+    width: -webkit-fill-available;
+    border-radius: 0px 0px 10px 10px;
+    height: 22px;
+  }
+  
+  .card[data-type="Actor"] .cardText-first {
+    bottom: 23.5px;
+    width: -webkit-fill-available;
+    height: 22px;
+  }
+  
+  .cardDefaultText {
+    opacity: 1 !important;
+  }
+  
+  .layout-mobile .card[data-type="Actor"] .cardText-first {
+    color: white !important;
+  }
+  
+  .card[data-type="Actor"] .cardOverlayButton-br {
+    position: absolute;
+    bottom: 23% !important;
+    right: 0 !important;
+  }
+  
+  .card[data-type="Actor"] .cardPadder {
+    background: none;
+  }
+  
+  .card[data-type="Actor"] .cardImageIcon {
+    bottom: 41%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  select {
+    box-shadow: 0 0 6px 0px black !important;
+    background: rgba(0, 0, 0, 0.2) !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    text-shadow: 0 0 5px black !important;
+  }
+  
+  .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon,
+  button.button-flat.btnResume.detailButton.emby-button,
+  h2 {
+    text-shadow: 0 0 5px black;
+  }
+  
+  .tmla-mask {
+    background: linear-gradient(to right, black, transparent);
+  }
+  
+  .dialogBackdrop {
+    background-color: #0000;
+  }
+  
+  .listItem:hover {
+    background: black;
+  }
+  
+  .listItem {
+    transition: transform 0.2s, background 0.2s, border-color 0.2s;
+  }
+  
+  .layout-mobile .listItem {
+    flex-wrap: wrap !important;
+    padding: 0 !important;
+    margin: 0;
+  }
+  
   
