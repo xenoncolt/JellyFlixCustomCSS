@@ -16,10 +16,8 @@ div#itemBackdrop {
     -webkit-mask-composite: source-in;
     mask-composite: intersect;
   }
-  
-  div#itemBackdrop::after {
-    display: none;
-  }
+
+
 
 .itemBackdrop {
     height: 31vh !important;
