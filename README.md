@@ -85,3 +85,9 @@ coming soon
 ```
 @import url("https://xenoncolt.github.io/JellyFlixCustomCSS/watchedIndicator.css");
 ```
+
+# Title page
+- Movie or show title page 
+```
+@import url("https://xenoncolt.github.io/JellyFlixCustomCSS/titlePage.css")
+```
