@@ -65,7 +65,7 @@ To use the JellySkin theme copy the line below into "Dashboard -> General -> Cus
 ### Compact List
 - List base view episode list
 ```
-coming soon
+@import url("https://xenoncolt.github.io/JellyFlixCustomCSS/listEpisodes.css");
 ```
 
 # Overly Progress
@@ -89,5 +89,5 @@ coming soon
 # Title page
 - Movie or show title page 
 ```
-@import url("https://xenoncolt.github.io/JellyFlixCustomCSS/titlePage.css")
+@import url("https://xenoncolt.github.io/JellyFlixCustomCSS/titlePage.css");
 ```

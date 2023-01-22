@@ -1,33 +1,20 @@
-/*Tweak series/movie/album title screen*/
+/*Alternate itempage*/
 
-.detailSectionContent {
-  max-width: 66em;
-}
-.trackSelections {
-  max-width: 22em;
+.itemBackdrop {
+  height: 31vh !important;
+  display: inherit;
 }
 .detailLogo {
   display: none;
 }
-.detailPagePrimaryContainer {
-  background: rgba(0,0,0,0) !important;
-}
 .layout-desktop .detailRibbon {
-  background: rgba(0,0,0,0) !important;
+  margin-top: 0;
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
 
-/* Fix poster image not showing in high width windows */
 .layout-desktop .detailImageContainer .card {
   top: 18vh;
-}
-
-@media all and (min-width: 32em){
-  .itemBackdrop {
-    display: none;
-  }
-	.layout-desktop .detailRibbon {
-    margin-top: 13vh;
-	}
 }
 
 #itemDetailPage .detailLogo {
@@ -38,8 +25,8 @@
     /*! filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75)); */
     flex-shrink: 0;
     background-position: 0 50%;
-    margin-top: 8vh;
-    margin-bottom: -12vh;
+    margin-top: -18vh;
+    margin-bottom: 2vh;
 }
 
 .layout-mobile .detailLogo {
