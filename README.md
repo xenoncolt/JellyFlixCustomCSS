@@ -1,5 +1,5 @@
 # JellyFlix Custom CSS
-### The main custom css for [JellyFlix](https://stream.jellyflix.ga) streaming service. Full custom css import link given here bellow. 
+### The main custom css for [JellyFlix](https://stream.jellyflix.ga) streaming service. Full custom css import link given here below. 
 
 To use the JellySkin theme copy the line below into "Dashboard -> General -> Custom CSS" and click save, it will apply immediately server-wide to all users on top of any theme they may be using. To remove the theme, clear the "Custom CSS" field and then click save. <br> Note: If it is not working create a issue with details [here](https://github.com/xenoncolt/JellyFlixCustomCSS/issues).
 
